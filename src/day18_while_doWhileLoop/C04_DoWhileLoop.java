@@ -11,8 +11,8 @@ public class C04_DoWhileLoop {
          */
 
 
-        Scanner scan=new Scanner(System.in);
-        int sayi=0;//loop'a girmesi icin bu degeri atadik
+        Scanner scan = new Scanner(System.in);
+        int sayi = 0;//loop'a girmesi icin bu degeri atadik
 
         //while loop ile
         /*
@@ -20,8 +20,8 @@ public class C04_DoWhileLoop {
         while loop'da, loop'tan once olusturdugumuz bu variable'a
         atayacagimiz degeri iyi dusunmemiz gerekiyor
          */
-        /*
-        while(sayi%2==0) {
+
+        while (sayi % 2 == 0) {
 
             System.out.println("Lutfen bir sayi giriniz ");
             sayi = scan.nextInt();
@@ -30,26 +30,25 @@ public class C04_DoWhileLoop {
             } else System.out.println("Girilen sayi tektir.");
 
         }
+    }
 
-            //do while loop ile yapalim
-            //do while loop'ta onceden olusturulan variable'a hangi deger
-            //atandiginin hic bir onemi yoktur, kodumuz her durumda calisir
+    //do while loop ile yapalim
+    //do while loop'ta onceden olusturulan variable'a hangi deger
+    //atandiginin hic bir onemi yoktur, kodumuz her durumda calisir
 
             /*
             do while'in dezavantaji : ilk calistirma kontrol yapilmadigindan oldugu icin
             loop'un body'sinde yanlis bir islem yapilmamasina dikkat etmeliyiz
              */
 
-            do{
-                System.out.println("Lutfen bir sayi giriniz ");
-                sayi = scan.nextInt();
-                if (sayi % 2 == 0) {
-                    System.out.println("Girilen sayi cifttir. ");
-                } else System.out.println("Girilen sayi tektir.");
+    //do{
+    //    System.out.println("Lutfen bir sayi giriniz ");
+    //    sayi = scan.nextInt();
+    //    if (sayi % 2 == 0) {
+    //        System.out.println("Girilen sayi cifttir. ");
+    //    } else System.out.println("Girilen sayi tektir.");
 
 
-            }while(sayi%2==0);
+    //}while(sayi%2==0);
 
-
-    }
 }
