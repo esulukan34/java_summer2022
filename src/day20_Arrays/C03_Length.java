@@ -11,10 +11,10 @@ public class C03_Length {
 
         String harfler[]=new String[4];
 
-        System.out.println("sayilar array'in uzunlugu : " + sayilar.length);// 3
-        //String length method'un () var, array'de yok
+        System.out.println("sayilar array'inin uzunlugu : " + sayilar.length);// 3
+        //String length method'unda () var, array'de yok
 
-        System.out.println("harfler array'in uzunlugu : " + harfler.length);
+        System.out.println("harfler array'inin uzunlugu : " + harfler.length); // 4
         System.out.println(Arrays.toString(harfler)); //[null, null, null, null]
 
         //harfler array'inin son elementini yazdiralim

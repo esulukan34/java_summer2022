@@ -1,11 +1,12 @@
 package day20_Arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class C05_SolaKaydir {
     public static void main(String[] args) {
 
-        //Verilwn 3 elemanli bir array'in
+        //Verilen 3 elemanli bir array'in
         //tum elemanlarini bir soldaki konuma tasiyacak bir program yazin
         //Ornek; array [1,2,3] ise output [2,3,1] olacak
 
@@ -21,7 +22,7 @@ public class C05_SolaKaydir {
         arr[arr.length-1]=temp;
         System.out.println(Arrays.toString(arr));
 
-        //soyukarida degistirdigimiz array'i ilk durumuna getirmek icin saga kaydiralim
+        //yukaridaki soruda degistirdigimiz array'i ilk durumuna getirmek icin saga kaydiralim
 
         temp=arr[arr.length-1];
         for (int i = arr.length-1; i >0; i--) {
