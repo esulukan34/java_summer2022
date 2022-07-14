@@ -13,5 +13,7 @@ public class C07_sort {
         Arrays.sort(sayilar); //sort methodu siralama yapar
 
         System.out.println(Arrays.toString(sayilar)); // [1, 3, 4, 5, 5, 7, 9]
+
+
     }
 }

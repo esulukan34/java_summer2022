@@ -14,7 +14,7 @@ public class C01_Array_MaxSayiyiBulma {
         int maxSayi=sayilar[0];
 
         for (int i = 1; i < sayilar.length ; i++) {
-            if (sayilar[i]>maxSayi) { // max oaln ilk eleman olsun dedik hepsini denedik buyuk mu diye
+            if (sayilar[i]>maxSayi) { // max olan ilk eleman olsun dedik hepsini denedik buyuk mu diye
                 maxSayi = sayilar[i];
             }
             
