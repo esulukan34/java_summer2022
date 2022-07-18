@@ -26,7 +26,7 @@ public class C01_Lists {
         set method'u istenen index'teki eski elementi silip,
         yerine verdigimiz yeni elementi set eder.
 
-        eger eski elementi silmek istemiyorsak a
+        eger eski elementi silmek istemiyorsak o zaman
         add (index,deger) method'u kullanabiliriz
 
         set() sildigi eski elementi de bize dondurur
