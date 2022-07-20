@@ -33,6 +33,10 @@ public class Kamyon {
 
     public Kamyon() {
 
+        this("Man","Model bilinmiyor");
+        //this("Volvo","Model bilinmiyor"); bu olmaz sadece 1 tane olabilir
+
+
     }
 
     @Override
