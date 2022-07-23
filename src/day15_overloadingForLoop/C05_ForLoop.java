@@ -49,5 +49,6 @@ public class C05_ForLoop {
         }
         System.out.println("1500-1600 arasi cift sayilarin toplami = " + toplam);
 
+
     }
 }

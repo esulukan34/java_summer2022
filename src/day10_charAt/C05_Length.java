@@ -12,7 +12,7 @@ public class C05_Length {
 
         /*
         Java'da null pointer (isaretleyici) bir deger değil,
-        karsinda yazildigi variabl' ın hic bir deger almadiginin isaretcisidir
+        karsinda yazildigi variable' ın hic bir deger almadiginin isaretcisidir
          */
 
         String str2= ""; // str2'ye bir degderf atanmis midir EVET
@@ -24,6 +24,7 @@ public class C05_Length {
         System.out.println(str2.length());
         System.out.println(str3.length()); // bir deger atanmamis ki nasil uzunglugu olsun..
                                           // NullPointerException
+
 
 
     }

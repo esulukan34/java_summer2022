@@ -6,7 +6,7 @@ public class C05_Scanner {
     public static void main(String[] args) {
         /*
         Kullanıcıdan iki sayı alıp
-        bu sayıların nçarpımını yazdırın
+        bu sayıların çarpımını yazdırın
          */
 
         //1.adım

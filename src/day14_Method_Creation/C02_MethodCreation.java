@@ -5,7 +5,7 @@ import day13_MethodCreation.C04_MethodCreation;
 public class C02_MethodCreation {
     public static void main(String[] args) {
         //Verilen 3 basamakli bir sayinin
-        //rakamlari toplamini yazdirran bir method olusturalim
+        //rakamlari toplamini yazdiran bir method olusturalim
 
 
         int input = 789;

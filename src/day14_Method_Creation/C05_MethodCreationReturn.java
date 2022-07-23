@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C05_MethodCreationReturn {
     public static void main(String[] args) {
         /*
-        Eger bir class2in icerisinde herhangi bir hesaplama yapip
+        Eger bir class'in icerisinde herhangi bir hesaplama yapip
         bunu da kalici halde saklamak istersek
         kodumuzu sade ve anlaşilir tutmak icin
         islemi bir method'a dondurebiliriz

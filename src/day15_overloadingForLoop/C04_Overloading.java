@@ -10,7 +10,7 @@ public class C04_Overloading {
     }
     /*
     Java hangi method'un calisacagina karar verirken optimizasyon yapar.
-    Eger hic kest yapmadan kullanabilecegi bir method varsa onu kullair.
+    Eger hic kest yapmadan kullanabilecegi bir method varsa onu kullanir.
     Eger cast yapmadan kullanacaği bir method yoksa bu defa da en az cast yaparak kullanabileceği
     method'u tercih eder.
      */
