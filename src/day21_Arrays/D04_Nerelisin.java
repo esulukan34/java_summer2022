@@ -3,7 +3,7 @@ package day21_Arrays;
 import java.util.Scanner;
 
 public class D04_Nerelisin {
-    /*
+        /*
         Soru 4- Kullanicidan nereli oldugunu isteyin, verilen sehir verilen array'de olup olmadigini
         kontrol edip, bize true veya false sonucu donen bir method olusturun.
          */

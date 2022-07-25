@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class C10_split {
     public static void main(String[] args) {
         /*
-        split metodu bir array met-thod'u degil string method'udur
+        split metodu bir array method'u degil string method'udur
         ama array dondurdugu icin bu konuda anlatiliyor
 
         split() ile herhangi bir String'i istedigimiz sekilde parcalara bolup
