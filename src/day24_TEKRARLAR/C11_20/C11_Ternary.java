@@ -1,0 +1,22 @@
+package day24_TEKRARLAR.C11_20;
+
+import java.util.Scanner;
+
+public class C11_Ternary {
+    public static void main(String[] args) {
+        //Soru4 ) Kullanicidan bir sayi alin. Sayi pozitifse “Sayi pozitif” yazdirin,
+        // negatifse  sayinin karesini yazdirin
+
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Lütfen bir sayi giriniz");
+        double sayi= scan.nextDouble();
+
+        // eğer ternary icindeki sonuclar farli data turlerinde ise atama
+        //yapamayız, sadece yazdirabiliriz
+        //sayi>0 ? "Sayi pozitif" : (sayi*sayi);
+
+
+
+    }
+
+}
