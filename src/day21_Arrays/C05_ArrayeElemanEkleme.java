@@ -2,7 +2,7 @@ package day21_Arrays;
 
 import java.util.Arrays;
 
-public class C05_ArrayeElementEkleme {
+public class C05_ArrayeElemanEkleme {
 
     public static void main(String[] args) {
         //Soru 5- Verilen bir array’e yeni bir element ekleyen method olusturun

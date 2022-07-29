@@ -14,6 +14,7 @@ public class Ogretmen {
 
     private String isim;
     private String soyisim;
+    private String brans;
 
     public String getIsim() {
         return isim;
@@ -39,7 +40,7 @@ public class Ogretmen {
         this.brans = brans;
     }
 
-    private String brans;
+
 
 
 
