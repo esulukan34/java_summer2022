@@ -8,7 +8,7 @@ public class C08_Faktoriyel {
         Verilen sayi negatif veya 20'den buyuk olursa girilen sayinin
         faktoriyeli hesaplanamaz uyarisi yazdirin
          */
-        int input=5;
+        int input=20;
         faktoriyelHesapla(input);
     }
 
@@ -16,7 +16,7 @@ public class C08_Faktoriyel {
 
         int faktoriyel=1;
 
-        if(input<0 || input>20){
+        if(input<0 || input>=20){
             System.out.println("girilen sayinin faktoriyeli hesaplanamaz");
         }else if(input==0){
             System.out.println("0!=1' dir");

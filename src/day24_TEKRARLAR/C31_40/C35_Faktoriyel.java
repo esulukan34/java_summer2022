@@ -9,22 +9,25 @@ public class C35_Faktoriyel {
         */
     public static void main(String[] args) {
 
-        int sayi = 0;
+        int sayi = 20;
 
         faktoriyel(sayi);
 
     }
 
-    public static void faktoriyel(int sayi) {
+    private static void faktoriyel(int sayi) {
         int faktoriyel = 1;
 
-        if (sayi >= 0 && sayi <= 20) {
-            for (int i = 1; i <= sayi; i++) {
+        if(sayi<0 || sayi>=20){
+            System.out.println("girilen sayinin faktoriyeli hesaplanamaz");
+        }else{
+            for (int i = 1; i <=sayi ; i++) {
                 faktoriyel *= i;
             }
-            System.out.println("faktoriyel = " + faktoriyel);
-        } else {
-            System.out.println("girilen sayinin faktoriyeli hesaplanamaz");
+            System.out.println("Girilen sayinin faktoriyeli : " + faktoriyel);
         }
+
     }
+
+
 }

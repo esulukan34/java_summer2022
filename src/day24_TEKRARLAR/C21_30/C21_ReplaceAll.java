@@ -6,7 +6,7 @@ public class C21_ReplaceAll {
         String str = "1Bu2gu3n Ja*va- cok g3uz/el";
 
         // str'i Bugun Java cok guzel haline getirin
-        // replaceAll method'undaki all'un amaı aynı özellikteki tüm karakterleri kapsamasıdır
+        // replaceAll method'undaki all'un tamamaı aynı özellikteki tüm karakterleri kapsamasıdır
         // butun sayilari sil
         // butun ozel karakterleri sil
 
@@ -14,5 +14,10 @@ public class C21_ReplaceAll {
         // space'leri korumak icin en basta onlarin yerine cumlede bulunmayacak
         // bir string koyalim
         //"qazwsx"
+
+
+
+
+
     }
 }
