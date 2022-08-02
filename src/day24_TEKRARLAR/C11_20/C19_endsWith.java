@@ -1,9 +1,0 @@
-package day24_TEKRARLAR.C11_20;
-
-public class C19_endsWith {
-    //   Soru 1) Kullanicidan email adresini girmesini isteyin,
-    //   mail @gmail.com icermiyorsa  "lutfen gmail adresi giriniz",
-    //   @gmail.com ile bitiyorsa  "Email adresiniz kaydedildi " ,
-    //   @gmail.com ile bitmiyorsa lutfen yazimi kontol edin yazdirin
-
-}
