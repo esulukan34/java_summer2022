@@ -10,15 +10,23 @@ public class C57_DoWhileLoop {
          */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("bir tamsayi giriniz");
-        int sayi;
-        do{
-            sayi = scan.nextInt();
-            if(sayi%2==0){
-                System.out.print(sayi + " ");
-            }else{
-                System.out.println("sayi tektir");
-            }
-        }while(sayi%2==0);
+         boolean dogruMu = true;
+         int sayi;
+
+         while(dogruMu){
+             System.out.println("bir tamsayi giriniz");
+             sayi = scan.nextInt();
+             if(sayi%2==0){
+                 System.out.print(sayi + "");
+                 System.out.println(" ");
+             }else{
+                 System.out.println("sayi tektir GÜLE GÜLE :)");
+                 dogruMu = false;
+             }
+
+
+         }
+
+
     }
 }

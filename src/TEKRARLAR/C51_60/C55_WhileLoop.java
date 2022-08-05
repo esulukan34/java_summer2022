@@ -8,20 +8,16 @@ public class C55_WhileLoop {
         ve bu sayinin rakamlari toplamini yazin
          */
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("toplamak icin bir sayi giriniz");
-        int sayi = scan.nextInt();
 
-        int birlerBas = 0;
-        int toplam = 0;
-        int temp = sayi;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("pozitif bir sayi giriniz");
+        int sayi = sc.nextInt();
+        int rakamlarTop = 0;
 
-        while(temp>0){
-
-            birlerBas = temp%10;
-            toplam += birlerBas;
-            temp /= 10;
+        while(sayi>0){
+            rakamlarTop += sayi%10;
+            sayi /= 10;
         }
-        System.out.println(sayi + " sayisinin rakamlar toplami : " + toplam);
+        System.out.println(rakamlarTop);
     }
 }
