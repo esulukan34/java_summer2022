@@ -7,7 +7,7 @@ public class C04_ArrayOlustur {
     //Soru 4- Kullanicidan bir array’in boyutunu ve tum elementlerini alarak
     // bir array olusturup, bu array’i bize donduren bir method olustur
     public static void main(String[] args) {
-        /*
+
         int[] sayilar = arrayOlustur();
         System.out.println(Arrays.toString(sayilar));
     }
@@ -25,7 +25,7 @@ public class C04_ArrayOlustur {
         }
         return olusturulan;
 
-         */
+
 
 /*
         int[] sayilar1 = arrayYaz();
@@ -46,6 +46,7 @@ public class C04_ArrayOlustur {
         return arr;
 
  */
+        /*
         String[] kelimeler = arrayYap();
         System.out.println("Array = " + Arrays.toString(kelimeler));
 
@@ -65,4 +66,7 @@ public class C04_ArrayOlustur {
         return kelimeler;
     }
 
+         */
+
+    }
 }

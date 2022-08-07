@@ -20,9 +20,6 @@ public class D02_SesliHarfBulmaContains {
         }else
             System.out.println("Girilen harf sesli harf DEĞİLDİR " );
 
-
-
-
     }
 
     public static boolean SesliHarfBulmaContains(char[] sesliHarf, char girilenHarf) {

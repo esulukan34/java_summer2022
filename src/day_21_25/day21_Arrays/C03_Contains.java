@@ -30,8 +30,6 @@ public class C03_Contains {
                 sonucMethod=true;
             }
         }
-
-
         return sonucMethod;
     }
 }
