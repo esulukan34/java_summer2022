@@ -16,27 +16,46 @@ public class C02_set {
         urunler.add("Cekirdek");
         urunler.add("Cay");
         List<String> eskiUrunler= new ArrayList<>();
+
         // listedeki ikram'in yerine biskrem koyalim,
         // ikram'i da eski urunler listesine ekleyelim
         String yeniUrun="Biskrem";
+
         String silinecekUrun="Ikram";
+
         int temp=urunler.indexOf(silinecekUrun);
+
         String silinenUrun=urunler.set(temp,yeniUrun);
+
         eskiUrunler.add(silinenUrun);
+
         System.out.println("urunler listesi : " + urunler);
+
         System.out.println("eski urunler listesi : " + eskiUrunler);
+
         yeniUrun="Kahve";
+
         silinecekUrun="Cay";
+
         temp=urunler.indexOf(silinecekUrun);
+
         silinenUrun=urunler.set(temp,yeniUrun);
+
         eskiUrunler.add(silinenUrun);
+
         System.out.println("urunler listesi : " + urunler);
         System.out.println("eski urunler listesi : " + eskiUrunler);
+
         yeniUrun="Findik";
+
         silinecekUrun="Cekirdek";
+
         temp=urunler.indexOf(silinecekUrun);
+
         silinenUrun=urunler.set(temp,yeniUrun);
+
         eskiUrunler.add(silinenUrun);
+
         System.out.println("urunler listesi : " + urunler);
         System.out.println("eski urunler listesi : " + eskiUrunler);
     }

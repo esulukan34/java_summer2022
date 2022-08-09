@@ -9,16 +9,19 @@ public class C72_MdaIstenenSayilariYazdirma {
         [0][0] + [1][1] + [2][2] ....
         */
     public static void main(String[] args) {
-        int[][] sayilar ={{1,5,6,9,4},{2,5,5,8},{3,1,6}};
+        int[][] sayilar ={{1,5,6,9,4},{2,5,5,8},{3,1,6},{3,4,6,8,4}};
 
         int toplam = 0;
-        for (int i = 0; i < sayilar.length; i++) {
-            for (int j = 1; j < sayilar[i].length; j++) {
+
+        for (int i = 0; i < sayilar.length; i++) { // outer
+            for (int j = 0; j < sayilar[i].length; j++) {
                 if(i==j){
                     toplam += sayilar[i][j];
+                    
                 }
             }
         }
-        System.out.println(toplam);
+        System.out.println("toplam = " + toplam);
+        
     }
 }
