@@ -1,4 +1,4 @@
-package day47_maps;
+package day_46_48.day47_maps;
 
 import java.util.Arrays;
 import java.util.Map;

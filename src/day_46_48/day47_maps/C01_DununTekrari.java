@@ -1,4 +1,4 @@
-package day47_maps;
+package day_46_48.day47_maps;
 
 import day_46_48.day46_maps.ReusableMethods;
 
